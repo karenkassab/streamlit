@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Read the data
-file_path = 'https://github.com/karenkassab/streamlit/blob/main/world-data-2023.csv'
+file_path = 'https://raw.githubusercontent.com/karenkassab/streamlit/main/world-data-2023.csv'
 data = pd.read_csv(file_path)
 st.title('Global Data Explorer: Visualizing Population, Forested Area, and CO2 Emissions by Country')
 
